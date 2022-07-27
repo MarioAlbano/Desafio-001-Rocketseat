@@ -1,5 +1,5 @@
 html{
-    max-width: 82%;
+    max-width: 85%;
     height: 100vw;
     background-color: #141414;
     margin-left: auto;
@@ -9,7 +9,7 @@ html{
 
 .header {
     display: grid;
-    width: 100vw;
+    width: 100%;
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
     "profile projects"
@@ -60,6 +60,8 @@ html{
 }
 
 .projects {
+    position: relative;
+    left: 100px;
     display: flex;
     width: 950px;
     height: 86px;
@@ -80,6 +82,8 @@ html{
 }
 
 .projects-files {
+    position: relative;
+    left: 100px;
     width: 1000px;
     height: 186;
     grid-area: projects-files;
@@ -96,6 +100,11 @@ html{
     box-sizing: border-box;
     background-color: #302F3D;
     border-radius: 20px;
+}
+
+.projects-first p, img, div, span {
+    padding: 0;
+    margin: 0;
 }
 
 .projects-second{
@@ -115,4 +124,20 @@ html{
     display: flex;
     gap: 15px;
     padding: 20px;
+}
+
+.flex-02 img {
+    color: #837E9F;
+}
+
+.detail {
+    width: 15px;
+    height: 15px;
+    background: #E7DE79;
+    border: 2px solid #837E9F;
+    border-radius: 50%;
+}
+
+.icon-flex {
+    filter:#837E9F;
 }
