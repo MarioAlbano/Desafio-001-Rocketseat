@@ -1,0 +1,62 @@
+.fundo {
+    background-color: #fff;
+}
+.parte-principal {
+    background-color: #22212C;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.classe-lateral {
+    background-color: #22212C;
+    height: 1780px;
+}
+
+.parte-conteudo {
+    background-color: #22212C;
+}
+
+.perfil {
+    position: relative;
+    width: 348px;
+    height: 292px;
+    background-color:aqua;
+    left: 40px;
+    top: 40px;
+}
+
+.informacao {
+    position: relative;
+    width: 348px;
+    height: 348px;
+    background-color:aqua;
+    left: 40px;
+    top: 70px;
+}
+
+.tecnologias {
+    position: relative;
+    width: 348px;
+    height: 208px;
+    background-color: aquamarine;
+    left: 40px;
+    top: 100px;
+}
+
+.experiencias {
+    position: relative;
+    width: 348px;
+    height: 349px;
+    background-color: black;
+    left: 40px;
+    top: 130px;
+}
+
+.educacao {
+    position: relative;
+    width: 348px;
+    height: 352px;
+    background-color: aliceblue;
+    left: 40px;
+    top: 160px;
+}

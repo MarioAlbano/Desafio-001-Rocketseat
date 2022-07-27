@@ -1,3 +1,44 @@
-.main-section {
-height: 1200px;
+.pesquisa {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    background-color: brown;
+    left: 614px;
+    top: 40px;
+}
+
+.projeto-1 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    background-color: chartreuse;
+    left: 614px;
+    top: 157px;
+}
+
+.projeto-2 {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    background-color: chartreuse;
+    left: 1105px;
+    top: 157px;
+}
+
+.projeto-recente {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    background-color: blueviolet;
+    left: 614px;
+    top: 373px;
+}
+
+.sobre {
+    position: absolute;
+    width: 952px;
+    height: 201px;
+    background-color: blue;
+    left: 614px;
+    top: 489px;
 }
