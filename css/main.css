@@ -1,48 +1,49 @@
 .parte-conteudo {
     background-color: #22212C;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 60px;
 }
 
 .pesquisa {
-    position: absolute;
+    position: relative;
     width: 952px;
     height: 86px;
     background-color: brown;
-    left: 614px;
-    top: 40px;
+}
+
+.projeto-flex {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .projeto-1 {
-    position: absolute;
+    position: relative;
     width: 461px;
     height: 186px;
     background-color: chartreuse;
-    left: 614px;
-    top: 157px;
 }
 
 .projeto-2 {
-    position: absolute;
+    position: relative;
     width: 461px;
     height: 186px;
     background-color: chartreuse;
-    left: 1105px;
-    top: 157px;
 }
 
 .projeto-recente {
-    position: absolute;
+    position: relative;
     width: 952px;
     height: 86px;
     background-color: blueviolet;
-    left: 614px;
-    top: 373px;
 }
 
 .sobre {
-    position: absolute;
+    position: relative;
     width: 952px;
     height: 201px;
     background-color: blue;
-    left: 614px;
-    top: 489px;
 }

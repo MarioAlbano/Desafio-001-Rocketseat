@@ -1,13 +1,17 @@
 .fundo {
     background-color: #fff;
 }
+
+/*Definido display grid para divisão do site*/
 .parte-principal {
     background-color: #22212C;
     width: 85vw;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
-/*Definindo display grid*/
+/*Definindo flex para a lateral*/
 .classe-lateral {
     background-color: #22212C;
     height: 1780px;
@@ -23,7 +27,6 @@
     width: 348px;
     height: 292px;
     background-color:aqua;
-
 }
 
 .informacao {
