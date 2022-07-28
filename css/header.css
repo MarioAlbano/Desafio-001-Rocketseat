@@ -29,6 +29,7 @@
     background-color:aqua;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
 
 .informacao {
@@ -38,6 +39,7 @@
     background-color:aqua;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
 
 .tecnologias {
@@ -47,6 +49,7 @@
     background-color: aquamarine;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
 
 .experiencias {
@@ -56,6 +59,7 @@
     background-color: black;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
 
 .educacao {
@@ -65,4 +69,5 @@
     background-color: aliceblue;
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
