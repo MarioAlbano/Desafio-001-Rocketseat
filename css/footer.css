@@ -1,4 +1,14 @@
 .footer {
-    justify-content: center;
+    width: 90vw;
+    display:grid;
+    place-items: center;
+    background-color: #22212C;
     margin: 0 auto;
+    padding: 15px 0;
+    }
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }

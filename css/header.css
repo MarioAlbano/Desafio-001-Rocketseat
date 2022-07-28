@@ -5,7 +5,7 @@
 /*Definido display grid para divisão do site*/
 .parte-principal {
     background-color: #22212C;
-    width: 85vw;
+    width: 90vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -14,7 +14,7 @@
 /*Definindo flex para a lateral*/
 .classe-lateral {
     background-color: #22212C;
-    height: 1780px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -27,6 +27,8 @@
     width: 348px;
     height: 292px;
     background-color:aqua;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .informacao {
@@ -34,6 +36,8 @@
     width: 348px;
     height: 348px;
     background-color:aqua;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .tecnologias {
@@ -41,6 +45,8 @@
     width: 348px;
     height: 208px;
     background-color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .experiencias {
@@ -48,6 +54,8 @@
     width: 348px;
     height: 349px;
     background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .educacao {
@@ -55,4 +63,6 @@
     width: 348px;
     height: 352px;
     background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
 }
