@@ -26,7 +26,7 @@
     position: relative;
     width: 348px;
     height: 292px;
-    background-color:aqua;
+    background-color:var(--bg-cards);
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
@@ -40,26 +40,102 @@
     height: auto;
     border-radius: 50%;
     border: solid 3px rgba(0, 255, 0, 1);
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.perfil p {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.91px;
+    color: var(--text-color);
+}
+
+.perfil span {
+    font-weight: 300px;
+    font-size: 13px;
+    line-height: 16.34px;
+    padding-bottom: 40px;
+    color: var(--text-color)
 }
 
 .informacao {
     position: relative;
     width: 348px;
-    height: 348px;
-    background-color:aqua;
+    height: auto;
+    background-color:var(--bg-cards);
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.informacao-ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.li-flexbox {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.li-flexbox img {
+    filter: invert(48%) sepia(10%) saturate(961%) hue-rotate(209deg) brightness(103%) contrast(82%);
+}
+
+.li-flexbox span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.34px;
 }
 
 .tecnologias {
     position: relative;
     width: 348px;
     height: 208px;
-    background-color: aquamarine;
+    background-color: var(--bg-cards);
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
+}
+
+.tecnologias-p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.14px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tecnologias-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 0 30px 30px 30px;
+}
+
+.tecnologias-grid-li {
+    background-color: var(--bg-techs);
+    border-radius: 25px;
+    width: 86px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias-grid-li span {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 0px;
+    color: rgba(0, 0, 0, 1);
 }
 
 .experiencias {
