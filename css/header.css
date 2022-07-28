@@ -141,19 +141,99 @@
 .experiencias {
     position: relative;
     width: 348px;
-    height: 349px;
-    background-color: black;
+    height: auto;
+    background-color: var(--bg-cards);
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.experiencias p {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.91px;
+    color: var(--text-color);
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.experiencias-lista {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.experiencias-lista li {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15.08px;
+}
+
+.experiencias-lista-li {
+    margin-top: 20px;
+    list-style-type: disc;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.experiencias-lista-descricao {
+    margin-top: 20px;
+    list-style-type: disc;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.experiencias-lista-detalhe {
+    margin-top: 0px;
 }
 
 .educacao {
     position: relative;
     width: 348px;
-    height: 352px;
-    background-color: aliceblue;
+    height: auto;
+    background-color: var(--bg-cards);
     border-radius: 15px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.educacao p {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28.91px;
+    color: var(--text-color);
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.educacao-lista {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.educacao-lista li {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15.08px;
+}
+
+.educacao-lista-li {
+    margin-top: 20px;
+    list-style-type: disc;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.educacao-lista-descricao {
+    margin-top: 20px;
+    list-style-type: disc;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.educacao-lista-detalhe {
+    margin-top: 0px;
 }
