@@ -1,12 +1,15 @@
 .footer {
-    width: 90vw;
-    display:grid;
+    width: 90.4vw;
+    display: grid;
     place-items: center;
     background-color: #22212C;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     padding: 15px 0;
     box-sizing: border-box;
-    }
+    border-left: 4px solid #141414;
+    border-right: 4px solid #141414;
+    border-bottom: 4px solid #141414;
+}
 
 .footer p {
     font-weight: 400;
